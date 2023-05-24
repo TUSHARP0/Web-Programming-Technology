@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <form>
+    <table border="1" cellpadding="10px" style="background-color: rgb(249, 164, 206);">
+        <tr>
+            <td><label for="nm">Name:</label></td>
+            <td><input type="text" name="nm" id="nm" required ></td>
+        </tr>
+        <tr>
+            <td><label>Employee Code:</label></td>
+            <td><input type="text"></textarea></td>
+        </tr>
+        <tr>
+            <td><label>Department:</label></td>
+            <td><input type="radio" name="dept" id="ad" value="Admin"><label for="ad">Admin</label><br>
+                <input type="radio" name="dept" id="hr" value="HR"><label for="hr">HR</label><br>
+                <input type="radio" name="dept" id="tech" value="Tech"><label for="tech">Technical</label><br>
+                <input type="radio" name="dept" id="acc" value="Accounts"><label for="acc">Accounts</label><br>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="date">Date of Joining:</label></td>
+            <td><input type="date" name="date" id="date"></td>
+        </tr>
+        <tr>
+            <td><label for="addr">Address:</label></td>
+            <td><textarea name="addr" id="addr" cols="30" rows="10"></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="prog">Training Program Attended:</label></td>
+            <td><input type="checkbox" name="html" id="html"><label for="html">HTML/DHTML</label>
+                &nbsp; &nbsp; &nbsp;<br>
+                <input type="checkbox" name="java" id="java"><label for="java">JAVA</label>
+               <br>
+                    <input type="checkbox" name="cs" id="cs"><label for="cs">CLIENT/SERVER</label>
+                    &nbsp; &nbsp; &nbsp;<br>
+                    <input type="checkbox" name="net" id="net"><label for="net">.NET</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label>Training Programmes need to attend</label></td>
+            <td><select name="program" id="program">
+                <option value="test">----Select One----</option>
+                <option value="js">JAVASCRIPT</option>
+                <option value="jstruts">JSTRUTS</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><label>Send the information at</label></td>
+            <td><a href="mailTo:tusharp0911@gmail.com">tusharp0911@gmail.com</a></td>
+        </tr>
+    
+    </table>
+    </form>
+    </body>
+</html>
