@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <style>
+            .test{
+                padding-left: 30px;
+                padding-top: 10px;
+            }
+        </style>
+        <title>
+            Feedback Form : A&T Sports
+        </title>
+        <h1>A&T Sports</h1>
+    </head>
+    <body>
+        We at A&T blah blah blah...
+        <br>
+        <br>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Feedback Form: A&T Sports
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr >
+                    <td>
+                        <label> Type of Problem:</label>
+                    </td>
+                    <td class="test"><input type="checkbox" name="prb" id="prb"><label for="prb">Website is down</label> <br>
+                        <input type="checkbox" name="prb" id="prb"><label for="prb">Product not available</label> <br>
+                        <input type="checkbox" name="prb" id="prb"><label for="prb">Missing information about Product</label> <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Username:
+                    </td>
+                    <td class="test">
+                        <input type="text" placeholder="Enter UserName" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email:
+                    </td>
+                    <td class="test">
+                        <input type="text" placeholder="Enter Email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Location:
+                    </td>
+                    <td class="test">
+                        <textarea name="loc" id="loc" cols="20" rows="3" required></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Phone No.:
+                    </td>
+                    <td class="test">
+                        <input type="text" placeholder="Enter Phone No.">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Description of the Problem:
+                    </td>
+                    <td class="test">
+                        <textarea name="dsc" id="dsc" cols="20" rows="5" required></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="np"> Notification of the Problem:</label>
+                    </td>
+                    <td class="test">
+                        <input type="radio" name="np" id="yes"><label for="yes">Yes</label>
+                        <input type="radio" name="np" id="no"><label for="no">No</label>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <input type="submit" value="submit" style="margin-left: 20%;">
+    </body>
+</html>
