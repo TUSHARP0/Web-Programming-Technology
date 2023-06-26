@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/displayaddform">
+        <table border="2">
+            <thead>
+                <th>Employee ID</th>
+                <th>Employee Name</th>
+                <th>Employee Salary</th>
+                <th>Action</th>
+            </thead>
+            <tbody>
+               
+                    <%for(i=0;i<empdata.length;i++){%>
+                        <tr>
+                        <td><%=empdata[i].empid%></td>
+                        <td><%=empdata[i].ename%></td>
+                        <td><%=empdata[i].sal%></td>
+                        <td>
+                            <a href="/edit/<%=empdata[i].empid%>">Edit</a>/
+                            <a href="/delete/<%=empdata[i].empid%>">Delete</a>
+                        </td>
+                    </tr>
+                        <%}%>
+                
+            </tbody>
+        </table>
+        <br>
+        <button type="submit" id="btn" name="btn" value="btn">Add Employee</button>
+    </form>
+</body>
+</html>
