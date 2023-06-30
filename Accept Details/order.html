@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./order1.js"></script>
+</head>
+<body>
+    <form name="form1" >
+    Order ID: <input type="text" id="oid" name="oid" required><span style="color:red">*</span><br><br>
+    Cust Name: <input type="text" id="nm" name="nm" required><span style="color:red">*</span><span id="err1" style="color:red"></span>
+    <br><br>
+    Enter Billing Date: <input type="text" id="bd" name="bd" required><span style="color:red">*</span><span id="err2" style="color:red"></span><br><br>
+    Enter Shipping Date: <input type="text" id="sd" name="sd" required><span style="color:red">*</span><br><br>
+    Order Total: <input type="text" id="total" name="total" required><span style="color:red">*</span><br><br>
+    <button type="button" id="btn" name="btn" onclick="display()">Display</button>
+</form>
+    <div id="mydiv"> </div>
+</body>
+</html>

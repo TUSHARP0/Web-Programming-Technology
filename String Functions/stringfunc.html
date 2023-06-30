@@ -1,0 +1,28 @@
+<!-- String_Manipulation.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./stringfunc.js"></script>
+</head>
+<body>
+    Enter String: <input type="text" id="string"><br>
+    <br>
+    Enter Sub String: <input type="text" id="substring"><br>
+    <br>
+    Replace with String: <input type="text" id="replace"><br>
+    <br>
+    <input type="radio" id="search" name="rad" value="search"><label for="search">Search substring in main string</label>
+    <input type="radio" id="upper" name="rad" value="upper"><label for="upper">To Upper Case</label>
+    <input type="radio" id="lower" name="rad" value="lower"><label for="lower">To Lower Case</label>
+    <input type="radio" id="trim" name="rad" value="trim"><label for="trim">Trim Spaces</label>
+    <input type="radio" id="concat" name="rad" value="concat"><label for="concat">Concatenate</label>
+    <input type="radio" id="rep" name="rad" value="rep"><label for="rep">Replace</label><br>
+    <br>
+    <button type="button" id="btn" name="btn" onClick="display()">Submit Query</button>
+
+    <div id="mydiv"></div>
+</body>
+</html>
